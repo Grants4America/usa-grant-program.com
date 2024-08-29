@@ -47,15 +47,12 @@ header nav a:hover {
 @media (max-width: 768px) {
   header {
     padding: 10px 0;
-    height: auto; /* Allows for flexible height */
-  }
-
-  .container {
-    margin-top: 100px;
+    height: 500px; /* Allows for flexible height */
   }
 
   header .logo {
-    float: none;
+    float: bottom;
+    bottom: 0;
     display: block;
     font-size: 20px;
     margin: 0 auto; /* Centers the logo */
