@@ -47,23 +47,20 @@ header nav a:hover {
 @media (max-width: 768px) {
   header {
     padding: 10px 0;
-    height: 500px; /* Allows for flexible height */
+    height: auto; /* Set height to auto for flexibility */
+    text-align: center; /* Center content in the header */
   }
 
   header .logo {
-    float: bottom;
-    bottom: 0;
     display: block;
     font-size: 20px;
-    margin: 0 auto; /* Centers the logo */
+    margin: 0 auto 10px auto; /* Centers the logo with margin below */
   }
 
   .header-nav {
-    float: none;
-    bottom: 0;
     display: block;
-    text-align: center;
     margin: 10px 0; /* Adjust margin as needed */
+    text-align: center; /* Center the navigation links */
   }
 
   header nav {
@@ -74,6 +71,7 @@ header nav a:hover {
     display: block;
     margin: 5px 0; /* Adjust margin as needed */
     padding: 10px;
+    text-align: center; /* Center the links */
   }
 }
 
