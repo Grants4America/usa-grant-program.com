@@ -1,7 +1,3 @@
-// scripts.js
-document.querySelector('.btn').addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector('#grant-info').scrollIntoView({
-        behavior: 'smooth'
-    });
+document.addEventListener("DOMContentLoaded", function () {
+  // Any JavaScript you need to initialize goes here
 });

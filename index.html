@@ -1,53 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USA Grant Program</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      style="
+        background-image: url(./images/federal-grants.gif);
+        background-repeat: no-repeat;
+        background-position: center center;
+      "
+    >
+      <div class="container">
+        <div class="logo">🌎 USA Grant Program</div>
+        <nav class="header-nav">
+          <a href="#hero" class="button">Home</a>
+          <a href="#grant-info" class="button">Grant Information</a>
+          <a href="#contact" class="button">Contact Us</a>
+        </nav>
+      </div>
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USA Program Grant</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-</head>
-
-<body>
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-content">
-            <h1>Unlock Opportunities with Government and Private Grants</h1>
-            <p>Explore a range of grant programs available to U.S. citizens and non-citizens. Find out how you can apply today!</p>
-            <a href="#grant-info" class="btn">Learn More</a>
-        </div>
+      <div class="container text-center">
+        <h1 data-aos="fade-down">
+          Unlock Opportunities with Government and Private Grants
+        </h1>
+        <p data-aos="fade-down">
+          Explore a range of grant programs available to U.S. citizens and
+          non-citizens. Find out how you can apply today!
+        </p>
+        <a href="#grant-info" class="button" data-aos="fade-up">Learn More</a>
+      </div>
     </section>
 
     <!-- Grant Information Section -->
-    <section id="grant-info" data-aos="fade-up">
+    <section id="grant-info" class="section" data-aos="fade-up">
+      <div class="container">
         <h2>Introduction to Grants</h2>
-        <p>Grants are non-repayable funds or products disbursed by one party...</p>
+        <p>
+          Grants are non-repayable funds or products disbursed by one party,
+          often a government department, corporation, foundation, or trust, to a
+          recipient.
+        </p>
         <div class="grant-types">
-            <h3>Types of Grants:</h3>
-            <ul>
-                <li>Business Grants</li>
-                <li>Education Grants</li>
-                <li>Medical Grants</li>
-                <li>Housing Grants</li>
-            </ul>
+          <h3>Types of Grants:</h3>
+          <ul>
+            <li>Business Grants</li>
+            <li>Education Grants</li>
+            <li>Medical Grants</li>
+            <li>Housing Grants</li>
+          </ul>
         </div>
+      </div>
     </section>
 
-    <!-- JavaScript for Smooth Scrolling -->
-    <script>
-        document.querySelector('.btn').addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector('#grant-info').scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
+    <!-- Features Section -->
+    <section class="section">
+      <div class="container">
+        <h2>Features of USA Grant Program</h2>
+        <div class="row">
+          <div class="column" data-aos="fade-up">
+            <h6>#1 Feature</h6>
+            <h2>Unlock financial freedom with free grant money</h2>
+            <p>
+              Don’t let financial burdens hold you back. Access free grant money
+              that can be used to pay bills or for personal use.
+            </p>
+          </div>
+          <div class="column">
+            <img
+              src="./images/depositphotos_58245311-stock-photo-dividends.jpg"
+              alt="Feature 1"
+              class="feature-card"
+            />
+          </div>
+        </div>
+        <div class="row reverse">
+          <div class="column" data-aos="fade-up">
+            <h6>#2 Feature</h6>
+            <h2>Unlock financial opportunities with personal grants</h2>
+            <p>
+              Don’t let financial constraints hold you back. Personal grants
+              provide monetary awards that can help you achieve your goals and
+              dreams.
+            </p>
+          </div>
+          <div class="column">
+            <img
+              src="./images/depositphotos_287008802-stock-photo-excited-woman-reading-a-letter.jpg"
+              alt="Feature 2"
+              class="feature-card"
+            />
+            <img
+              src="./images/depositphotos_64111393-stock-photo-businessmans-hand-touching-funding-word.jpg"
+              alt="Feature 2"
+              class="feature-card"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column" data-aos="fade-up">
+            <h6>#3 Feature</h6>
+            <h2>Unlock financial opportunities without the burden of debt</h2>
+            <p>
+              With the USA Grant Program, you can access monetary support
+              without worrying about repayment. Unlock your full potential
+              without the burden of debt.
+            </p>
+          </div>
+          <div class="column">
+            <img
+              src="./images/depositphotos_64111393-stock-photo-businessmans-hand-touching-funding-word.jpg"
+              alt="Feature 3"
+              class="feature-card"
+            />
+            <img
+              src="./images/depositphotos_678049240-stock-photo-grants-concept-white-letters-alphabet.jpg"
+              alt="Feature 3"
+              class="feature-card"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-        AOS.init();
-    </script>
+    <!-- Call to Action Section -->
+    <section class="section main">
+      <div class="container text-center">
+        <h1>
+          Discover the financial support you deserve with USA Grant Program
+        </h1>
+        <a href="#grant-info" class="button">Apply Now</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="column text-center" data-aos="fade-up">
+            <h2>Contact Us</h2>
+            <p>
+              If you have any questions, feel free to reach out to us. We’re
+              here to help!
+            </p>
+            <a href="mailto:info@usagrantprogram.org" class="button"
+              >Email Us</a
+            >
+          </div>
+          <div class="column text-center">
+            <h2>Follow Us</h2>
+            <a
+              href="https://twitter.com/usagrantprogram"
+              target="_blank"
+              class="button"
+              >Twitter</a
+            >
+            <a
+              href="https://facebook.com/usagrantprogram"
+              target="_blank"
+              class="button"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2024 USA Grant Program. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="scripts.js"></script>
-</body>
-
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
