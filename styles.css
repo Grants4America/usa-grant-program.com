@@ -60,8 +60,7 @@ header nav a:hover {
   }
 
   .header-nav {
-    display: block;
-    padding-top: 70px;
+    display: flex;
     margin: 10px 0; /* Adjust margin as needed */
     text-align: center; /* Center the navigation links */
   }
