@@ -46,7 +46,7 @@ header nav a:hover {
 /* Mobile Styles */
 @media (max-width: 768px) {
   header {
-    padding: 10px 0;
+    padding: 40px 0;
     height: auto; /* Set height to auto for flexibility */
     text-align: center; /* Center content in the header */
   }
