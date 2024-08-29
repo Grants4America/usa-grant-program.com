@@ -22,3 +22,9 @@
 .btn:hover {
     background-color: #0056b3;
 }
+
+#grant-info {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
