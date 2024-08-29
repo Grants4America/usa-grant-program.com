@@ -74,6 +74,10 @@ header nav a:hover {
     padding: 10px;
     text-align: center; /* Center the links */
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Landscape Mobile Styles */
