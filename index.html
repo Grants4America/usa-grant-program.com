@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Program Grant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Unlock Opportunities with Government and Private Grants</h1>
+            <p>Explore a range of grant programs available to U.S. citizens and non-citizens. Find out how you can apply today!</p>
+            <a href="#grant-info" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Grant Information Section -->
+    <section id="grant-info">
+        <h2>Introduction to Grants</h2>
+        <p>Grants are...</p>
+        <!-- More content here -->
+    </section>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.querySelector('.btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#grant-info').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
