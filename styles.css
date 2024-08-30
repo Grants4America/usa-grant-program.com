@@ -319,3 +319,58 @@ tr:hover {
     transform: translateY(0);
   }
 }
+
+.testimony-section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimony-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.testimonies {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+}
+
+.testimony {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.message {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#nextTestimony {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #077eba;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#nextTestimony:hover {
+  background-color: #065a96;
+}
