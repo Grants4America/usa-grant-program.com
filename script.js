@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     emailjs.send("service_8yfnvf1", "template_s0qnuv7", formData).then(
       function (response) {
-        alert("Message sent successfully!");
+        alert("Application successful! We will get back to you.");
         form.reset();
       },
       function (error) {
